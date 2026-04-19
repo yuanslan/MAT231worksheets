@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="arguments">
+  <title>Logical Arguments</title>
+
+  <p>
+    An argument is valid if the conclusion must be true whenever the premises are true.
+    One common valid form is <strong>Modus Tollens</strong>.
+  </p>
+
+  <exercise>
+    <statement>
+      Determine whether the argument is valid. Justify your answer.
+
+      <blockquote>
+        If I study, then I will pass the exam.<br/>
+        I did not pass the exam.<br/>
+        Therefore, I did not study.
+      </blockquote>
+
+      Let <m>s</m>: I study, <m>p</m>: I pass the exam.
+    </statement>
+
+    <solution>
+      This is valid by Modus Tollens.
+    </solution>
+  </exercise>
+</section>

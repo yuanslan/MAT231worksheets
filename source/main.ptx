@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <article xml:id="logic-worksheet">
+
+    <title>Worksheet: Introduction to Logic</title>
+
+    <xi:include href="introduction.ptx"/>
+    <xi:include href="section-1.ptx"/>
+    <xi:include href="section-2.ptx"/>
+    <xi:include href="section-3.ptx"/>
+    <xi:include href="section-4.ptx"/>
+    <xi:include href="section-5.ptx"/>
+    
+
+  </article>
+
+</pretext>

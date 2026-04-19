@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+  <title>TEST SECTION</title>
+
+  <p>If you see this, PreTeXt is working.</p>
+
+  <tabular>
+    <row>
+      <cell>A</cell>
+      <cell>B</cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell>2</cell>
+    </row>
+  </tabular>
+
+</section>

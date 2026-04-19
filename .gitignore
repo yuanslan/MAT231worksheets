@@ -1,0 +1,8 @@
+.cache/
+.vscode/
+*.log
+output/
+generated-assets/
+*.log
+.cache/
+.vscode/

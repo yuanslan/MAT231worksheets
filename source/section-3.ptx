@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="applications">
+  <title>Applications of Logic</title>
+
+  <p>
+    In logic, we translate English statements into symbolic form using logical connectives such as
+    <m>\land</m> (and), <m>\lor</m> (or), and <m>\rightarrow</m> (if-then).
+  </p>
+
+  <exercise>
+    <statement>
+      Translate into logical expressions:
+
+      <ol type="a">
+        <li>
+          If the alarm is set and the window is open, then the siren sounds.  
+          Let <m>a</m> be the alarm is set,  <m>w</m> be the window is open,  <m>s</m> be the siren sounds.
+        </li>
+
+        <li>
+          If the power is out, then the lights are off or the generator is on.  
+          Let <m>p</m> be the power is out, <m>l</m> be the lights are off, <m>g</m> be the generator is on.
+        </li>
+      </ol>
+    </statement>
+
+    <solution>
+      (a) <m>(a \land w) \rightarrow s</m><br/>
+      (b) <m>p \rightarrow (l \lor g)</m>
+    </solution>
+  </exercise>
+</section>

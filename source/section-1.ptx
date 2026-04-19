@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="part1">
+  <title>Propositions and Connectives</title>
+
+  <p>
+    A proposition is a statement that is either true or false, but not both.
+    Questions below test whether a sentence qualifies as a proposition.
+  </p>
+
+  <exercise>
+    <statement>
+      Determine whether each of the following is a proposition. If it is, state whether it is true or false.
+
+      <ol type="a">
+        <li>The Eiffel Tower is in Paris.</li>
+        <li>Is it raining?</li>
+        <li><m>5 + 3 = 9</m></li>
+        <li>Close the door.</li>
+      </ol>
+    </statement>
+
+    <solution>
+      (a) Proposition, True  
+      (b) Not a proposition  
+      (c) Proposition, False  
+      (d) Not a proposition
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Let <m>p</m>: "It is raining", and <m>q</m>: "I will take an umbrella".
+
+      Translate the following statements into symbolic logic.
+    </statement>
+
+    <solution>
+      (a) <m>p \rightarrow q</m><br/>
+      (b) <m>\neg p \land \neg q</m><br/>
+      (c) <m>p \lor q</m>
+    </solution>
+  </exercise>
+</section>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="applications">
+  <title>Part 4: Applications of Logic</title>
+
+  <exercise>
+    <statement>
+      Translate the following English statements into logical expressions:
+
+      <ol type="a">
+        <li>
+          If the alarm is set and the window is open, then the siren sounds.
+          Let <m>a</m>: The alarm is set, <m>w</m>: The window is open, <m>s</m>: The siren sounds
+        </li>
+
+        <li>
+          If the power is out, then the lights are off or the generator is on.
+          Let <m>p</m>: Power is out, <m>l</m>: Lights are off, <m>g</m>: Generator is on
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Determine if the following argument is valid. Justify your answer.
+
+      <blockquote>
+        If I study, then I will pass the exam.<br/>
+        I did not pass the exam.<br/>
+        Therefore, I did not study.
+      </blockquote>
+
+      Let <m>s</m>: I study, <m>p</m>: I pass the exam.  
+      Form: <m>s \rightarrow p</m>, <m>\neg p</m>, therefore <m>\neg s</m>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Use truth tables to determine if the following are logically equivalent:
+
+      <ol type="a">
+        <li><m>p \rightarrow q</m> and <m>\neg p \lor q</m></li>
+        <li><m>\neg(p \land q)</m> and <m>\neg p \lor \neg q</m></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Prove or disprove:
+      <me>
+        p \rightarrow (q \land r) \equiv (p \rightarrow q) \land (p \rightarrow r)
+      </me>
+      using a truth table.
+    </statement>
+  </exercise>
+</section>

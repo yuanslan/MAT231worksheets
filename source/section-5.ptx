@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="equivalences">
+  <title>Logical Equivalence Proofs</title>
+
+  <p>
+    Two logical expressions are equivalent if they always have the same truth value.
+    We use truth tables to verify equivalence.
+  </p>
+
+  <exercise>
+    <statement>
+      Use truth tables to determine whether the following are logically equivalent:
+
+      <ol type="a">
+        <li><m>p \rightarrow q</m> and <m>\neg p \lor q</m></li>
+        <li><m>\neg(p \land q)</m> and <m>\neg p \lor \neg q</m></li>
+      </ol>
+    </statement>
+
+    <solution>
+      Both are equivalent (De Morgan’s Law and implication rule).
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Prove or disprove:
+      <me>
+        p \rightarrow (q \land r) \equiv (p \rightarrow q) \land (p \rightarrow r)
+      </me>
+      using a truth table.
+    </statement>
+  </exercise>
+</section>

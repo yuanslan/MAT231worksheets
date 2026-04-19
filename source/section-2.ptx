@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="truth-tables">
+  <title>Truth Tables</title>
+
+  <p>
+    A truth table shows all possible truth values of a compound statement.
+    Each row represents one possible combination of truth values for the variables.
+  </p>
+
+  <exercise>
+    <statement>
+      Complete the truth table for the compound proposition:
+
+      <me>
+        (p \rightarrow q) \land (\neg q)
+      </me>
+
+      Follow these steps:
+      <ol>
+        <li>Compute <m>p \rightarrow q</m></li>
+        <li>Compute <m>\neg q</m></li>
+        <li>Combine results using <m>\land</m></li>
+      </ol>
+
+      <tabular>
+        <row>
+          <cell><m>p</m></cell>
+          <cell><m>q</m></cell>
+          <cell><m>p \rightarrow q</m></cell>
+          <cell><m>\neg q</m></cell>
+          <cell><m>(p \rightarrow q) \land (\neg q)</m></cell>
+        </row>
+
+        <row>
+          <cell>T</cell><cell>T</cell><cell></cell><cell></cell><cell></cell>
+        </row>
+
+        <row>
+          <cell>T</cell><cell>F</cell><cell></cell><cell></cell><cell></cell>
+        </row>
+
+        <row>
+          <cell>F</cell><cell>T</cell><cell></cell><cell></cell><cell></cell>
+        </row>
+
+        <row>
+          <cell>F</cell><cell>F</cell><cell></cell><cell></cell><cell></cell>
+        </row>
+      </tabular>
+    </statement>
+
+    <solution>
+      The final column evaluates to: F, T, F, F  
+      (so the statement is only true in the second row)
+    </solution>
+  </exercise>
+
+  <exercise>
+    <statement>
+      Construct truth tables for the following expressions and determine whether they are logically equivalent:
+
+      <ol type="a">
+        <li><m>\neg (p \lor q)</m></li>
+        <li><m>(\neg p \land \neg q)</m></li>
+      </ol>
+    </statement>
+
+    <solution>
+      Yes, they are logically equivalent (De Morgan’s Law).
+    </solution>
+  </exercise>
+</section>
